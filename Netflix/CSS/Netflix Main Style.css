@@ -1,0 +1,14 @@
+body{
+    background-color: #141414;
+}
+
+#Container{
+    position: relative;
+}
+
+#Castlevania_Banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
