@@ -1,0 +1,235 @@
+body{
+    background-color: black;
+}
+
+#Container1 {
+    position: relative;
+}
+
+#Backgound_Login_Page {
+    background-image: url(../IMGS/Netflix\ Background\ Login\ Page.jpg);
+    background-size: cover;
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    opacity: 50%;
+}
+
+#Login_Container {
+    position: absolute;
+    background-color: black;
+    width: 30%;
+    height: 85%;
+    transform: translate(-50%);
+    top: 10%;
+    left: 50%;
+    filter: opacity(80%)
+}
+
+#Login_Wid {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    transform: translate(-50%);
+    top: 10%;
+    left: 50%;
+}
+
+#EmailInput {
+    position: absolute;
+    width: 68%;
+    height: 6%;
+    font-size: 15px;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(30, 30, 30);
+    border-radius: 4%;
+    border: solid rgb(30, 30, 30);
+    color: gray;
+}
+
+#PasswordInput {
+    position: absolute;
+    width: 68%;
+    height: 6%;
+    font-size: 15px;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(30, 30, 30);
+    border-radius: 4%;
+    border: solid rgb(30, 30, 30);
+    color: gray;
+}
+
+#Remember_Me_CheckBox {
+    position: absolute;
+    left: 17%;
+    top: 48%;
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+    border: solid gray;
+}
+
+#Remember_Me_Text {
+    position: absolute;
+    left: 24%;
+    top: 46.3%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Need_Help {
+    position: absolute;
+    left: 65%;
+    top: 46.3%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#UnderText1 {
+    position: absolute;
+    left: 15%;
+    top: 63%;
+    color: rgb(115, 115, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#UnderText2 {
+    position: absolute;
+    left: 15%;
+    top: 68%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#SingInButton {
+    position: absolute;
+    width: 68%;
+    height: 6%;
+    font-size: 15px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #e50913;
+    border-radius: 8%;
+    color: white;
+    border: solid #e50913;
+}
+
+#Login {
+    position: absolute;
+    left: 12%;
+    top: 7%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#Netflix_Logo {
+    position: absolute;
+    max-width: 12%;
+    left: 50px;
+    top: 30px
+}
+
+#Bar {
+    position: absolute;
+    margin-top: 25%;
+    transform: translate(0, -100%);
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    filter: opacity(60%);
+}
+
+#Com {
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    transform: translate(0, -100%);
+    margin-top: 20%;
+}
+
+#Questions {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#FAQ {
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Help_Center {
+    position: absolute;
+    left: 35%;
+    top: 45%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Terms_of_Use {
+    position: absolute;
+    left: 55%;
+    top: 45%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Privacy {
+    position: absolute;
+    left: 75%;
+    top: 45%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Cookie_Preferences {
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Corporate_Information {
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Language {
+    position: absolute;
+    left: 15%;
+    top: 90%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+}
